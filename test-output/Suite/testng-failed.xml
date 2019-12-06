@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="thirdPackage.DiwaliSeleniumTask">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="Test1"/>
+          <include name="test2"/>
+          <include name="Before"/>
+          <include name="logout"/>
+          <include name="ChromeLaunch"/>
+          <include name="deleteCookies"/>
+          <include name="quit"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- thirdPackage.DiwaliSeleniumTask -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
